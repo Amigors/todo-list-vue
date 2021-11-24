@@ -1,19 +1,8 @@
 <template>
-  <h1>Todo App</h1>
-  <hr>
-  <TodoList />
+  <h2>Todo App</h2>
+    <hr>
+  <router-view />
 </template>
-
-<script>
-import TodoList from '@/components/TodoList'
-
-export default {
-  name: 'App',
-  components: {
-    TodoList
-  }
-}
-</script>
 
 <style>
 #app {
